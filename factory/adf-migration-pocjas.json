@@ -1,0 +1,9 @@
+{
+	"name": "adf-migration-pocjas",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8e269982-3e34-42e1-9857-45f80190300a",
+		"tenantId": "4699749e-7714-4529-8ccf-58d9a4482e90"
+	}
+}
