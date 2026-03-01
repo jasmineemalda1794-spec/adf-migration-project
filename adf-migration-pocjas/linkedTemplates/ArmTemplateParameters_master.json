@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-migration-pocjas"
+		},
+		"LS_ADLS_Raw_accountKey": {
+			"value": ""
+		},
+		"LS_Source_AzureSql_password": {
+			"value": ""
+		},
+		"LS_Target_AzureSql_password": {
+			"value": ""
+		},
+		"LS_ADLS_Raw_properties_typeProperties_url": {
+			"value": "https://storagemigrationjas.dfs.core.windows.net/"
+		},
+		"LS_Source_AzureSql_properties_typeProperties_server": {
+			"value": "sql-migration-source-jas.database.windows.net"
+		},
+		"LS_Source_AzureSql_properties_typeProperties_database": {
+			"value": "Source_DB"
+		},
+		"LS_Source_AzureSql_properties_typeProperties_userName": {
+			"value": "jasmine_dbmanager"
+		},
+		"LS_Target_AzureSql_properties_typeProperties_server": {
+			"value": "sql-migration-source-jas.database.windows.net"
+		},
+		"LS_Target_AzureSql_properties_typeProperties_database": {
+			"value": "Target_DB"
+		},
+		"LS_Target_AzureSql_properties_typeProperties_userName": {
+			"value": "jasmine_dbmanager"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
